@@ -1,0 +1,153 @@
+@use '../../../styles/variables';
+
+.header {
+  height: 90px;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  max-width: variables.$max-width;
+  min-width: variables.$min-width;
+  margin:0 auto;
+  background-color: variables.$color-white;
+  
+  
+  &__burger-menu {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    &__burger-menu {
+      background-image: url(../../images/burger_menu.svg);
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      border: none;
+      padding: 0;
+      background-color: transparent;
+      margin-right: 31px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    &__burger-menu {
+      width: 40px;
+      height: 43px;
+      margin-right: 15px;
+    }
+  }
+  /* NAV */
+  
+  &__links-container {
+    margin-left: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    &__links-container {
+      display: none;
+    }
+  }
+  &__link {
+    background-color: variables.$color-dark;
+    border-radius: 3px;
+    border-width: 0;
+    border-style: none;
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: inherit;
+    padding: 10px 20px;
+    margin-left: 15px;
+
+    /* color: #000;
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 16px; */
+  }
+  &__link_active {
+    font-weight: 500;
+  }
+  
+  &__container {
+    margin-right: 80px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width: 1024px) {
+    &__container {
+      margin-right: 30px;
+    }
+    &__link {
+      font-size: 12px;
+      padding: 8px 11px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    &__container {
+      margin-right: 15px;
+    }
+  }
+  &__button {
+    color: variables.$color-dark;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border-style: none;
+  }
+  @media screen and (max-width: 320px) {
+    &__button {
+      font-size: 10px;
+    }
+  }
+  &__button-active {
+    width: 76px;
+    height: 32px;
+    border-radius: 3px;
+    background: #3456f3;
+    color: #fff;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 320px) {
+    &__button-active {
+      width: 54px;
+      height: 26px;
+      margin-left: 15px;
+    }
+  }
+  &__account-icon {
+    margin-left: 22px;
+    width: 10.4px;
+    height: 10.7px;
+  }
+  &__button-container {
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width: 1024px) {
+    &__button-container {
+      margin-right: 30px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    &__button-container {
+      display: none;
+    }
+  }
+}
+
+
+
+
+
+  

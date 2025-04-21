@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+  .navigation {
+    &__close-button {
+      width: 22px;
+      height: 22px;
+      background-image: url(../../images/close_icon.svg);
+      position: absolute;
+      right: 22.4px;
+      top: 22.4px;
+      border: none;
+      background-color: white;
+      padding: 0;
+      margin: 0;
+      background-size: contain;
+    }
+    &__links-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__button-container {
+      margin-right: 0;
+      display: flex;
+      align-items: center;
+    }
+    &__link {
+      margin-left: 0;
+      margin-top: 28px;
+      font-size: 18px;
+      color: black;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .navigation{
+      &__link {
+        margin-top: 0;
+        margin-bottom: 25px;
+      }
+      &__link_active {
+        border-bottom: 2px solid black;
+      }
+      &__container {
+        margin-right: 14px;
+      }
+      &__button {
+        font-size: 14px;
+      }
+      &__button-active {
+        margin-left: 14px;
+      }
+  }
+}
+  
+  @media screen and (max-width: 320px) {
+    .navigation{
+      &__close-button {
+        width: 30px;
+        height: 30px;
+        right: 16px;
+        top: 16px;
+      }
+      &__account-icon {
+        width: 10.383px;
+        height: 10.669px;
+        margin-left: 22.81px;
+      }
+    }
+  }
+}

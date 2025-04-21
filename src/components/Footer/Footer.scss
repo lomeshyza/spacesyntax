@@ -1,0 +1,18 @@
+@use '../../../styles/variables';
+
+.footer {
+    max-width: variables.$max-width;
+    background-color: variables.$color-black;
+    margin:0 auto;
+    padding: 2rem 2rem;
+    color:variables.$color-white;
+    display: flex;
+    justify-content: space-between;
+
+    &__container {
+      max-width: 400px;
+    }
+   &__menu {
+    display:flex;
+   }
+  }

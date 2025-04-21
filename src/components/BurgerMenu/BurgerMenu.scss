@@ -1,0 +1,35 @@
+.menu{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    right:0;
+    top:0;
+    z-index: 4;
+
+    &__content{
+        width: 67%;
+        height: 100vh;
+        position: fixed;
+        right:0;
+        top:0;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        font-weight: 500;
+    }
+    @media screen and (max-width: 320px) {
+        &__content{
+            width: 100%;
+        }
+      }
+}
+.blur{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    opacity: .3;
+    background-color: black;
+}
+
