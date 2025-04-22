@@ -14,7 +14,7 @@ import News from "./components/News/News";
 function App() {
  const [tab, setTab] = useState("effect");
  return (
-  <>
+  <div className="container">
    <Header />
     <main>
        <Blocks/>
@@ -31,7 +31,7 @@ function App() {
              {tab === "effect" && <EffectSection />} */}
     </main>
     <Footer/>
-  </>
+  </div>
  );
 }
 

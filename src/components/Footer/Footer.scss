@@ -1,18 +1,42 @@
 @use '../../../styles/variables';
 
 .footer {
-    max-width: variables.$max-width;
+    //max-width: variables.$max-width;
+    width: 100%;
     background-color: variables.$color-black;
     margin:0 auto;
     padding: 2rem 2rem;
     color:variables.$color-white;
     display: flex;
     justify-content: space-between;
+    flex-shrink: 0;
+    gap:20px;
+
+    @media screen and (max-width: 768px){
+      flex-direction: column;
+    }
 
     &__container {
       max-width: 400px;
+      span {
+        //color:variables.$text-color;
+        margin-top: 20px;
+        display: block;
+        line-height: 1.5;
+      }
     }
    &__menu {
     display:flex;
+    gap: 20px;
+    min-width: 350px;
+    
+    @media screen and (max-width: 425px){
+      flex-direction: column;
+    }
+    ul {
+      li {
+        margin-top:15px
+      }
+    }
    }
   }

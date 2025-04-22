@@ -2,12 +2,12 @@
 
 .header {
   height: 90px;
+  width: 100%;
   display: flex;
-  padding: 1rem 2rem;
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
-  max-width: variables.$max-width;
-  min-width: variables.$min-width;
+  //max-width: variables.$max-width;
   margin:0 auto;
   background-color: variables.$color-white;
   

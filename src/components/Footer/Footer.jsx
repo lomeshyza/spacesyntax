@@ -22,13 +22,13 @@ export default function Footer() {
             <li>Download</li>
           </ul>
           <ul>
-            <h4>документация</h4>
+            <h4>Документация</h4>
             <li>Site Editor</li>
             <li>Patterns</li>
             <li>Templates</li>
           </ul>
           <ul>
-            <h4>информация</h4>
+            <h4>Информация</h4>
             <li>Contact</li>
             <li>Privacy</li>
             <li>Terms</li>
