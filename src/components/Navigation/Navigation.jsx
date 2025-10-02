@@ -26,8 +26,11 @@ function Navigation({ handleClose }) {
         <NavLink to="/продукция-2" className={activeLinkClass}>
           ПРОДУКЦИЯ
         </NavLink>
-        <NavLink to="/api" className={activeLinkClass}>
+        <NavLink to="/tariff" className={activeLinkClass}>
           ТАРИФЫ
+        </NavLink>
+        <NavLink to="/store" className={activeLinkClass}>
+          МАГАЗИН
         </NavLink>
       </nav>
       {/* <Link to="/profile" className="navigation__link link">

@@ -1,0 +1,11 @@
+@use "../../../styles/variables";
+
+.store {
+    width: 100%;
+    padding: 1rem;
+}
+.store-content {
+    display: flex;
+    justify-content: space-between;
+}
+
