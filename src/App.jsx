@@ -11,9 +11,13 @@ import Footer from "./components/Footer/Footer";
 import Blocks from "./components/Blocks/Blocks";
 import News from "./components/News/News";
 import { Routes, Route } from "react-router-dom";
-import DevelopML from "./components/DevelopML/DevelopML";
+import Develop from "./components/Develop/Develop";
 import Main from "./components/Main/Main";
 import Store from "./components/Store/Store";
+import Data from "./components/Data/Data";
+import Products from "./components/Products/Products";
+import Progects from "./components/Progects/Progects";
+import Research from "./components/Research/Research";
 
 function App() {
     //const [tab, setTab] = useState("effect");
@@ -23,8 +27,13 @@ function App() {
 
             <Routes>
                 <Route path="/spacesyntax/" element={<Main />} />
-                <Route path="/2025/03/16/ml/" element={<DevelopML />} />
+                <Route path="/2025/03/16/ml/" element={<Develop />} />
                 <Route path="/store/" element={<Store />} />
+                <Route path="/develop/" element={< Develop/>} />
+                <Route path="/research/" element={< Research/>} />
+                <Route path="/progects/" element={< Progects/>} /> 
+                <Route path="/products/" element={< Products/>} /> 
+                <Route path="/data/" element={< Data/>} />
             </Routes>
 
             <main>
