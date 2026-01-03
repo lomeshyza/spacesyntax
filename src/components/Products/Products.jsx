@@ -5,7 +5,7 @@ import './Products.scss'
 export default function Products() {
 
   return (
-    <div className="products">
+    <div className="content">
       <h4>ПРОДУКЦИЯ</h4>
       <p>Готовые решения</p>
         {/* <ul className='news__list'>

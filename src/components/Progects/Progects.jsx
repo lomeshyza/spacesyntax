@@ -5,7 +5,7 @@ import './Progects.scss'
 export default function Progects() {
 
   return (
-    <div className="progects">
+    <div className="content">
       <h4>ПРОЕКТЫ</h4>
       <p>Реализация</p>
         {/* <ul className='news__list'>

@@ -5,7 +5,7 @@ import News from "../News/News";
 
 export default function Main() {
     return (
-        <div>
+        <div className="content">
             <Blocks />
             <News />
         </div>

@@ -27,7 +27,7 @@ function App() {
 
             <Routes>
                 <Route path="/spacesyntax/" element={<Main />} />
-                <Route path="/2025/03/16/ml/" element={<Develop />} />
+               {/*  <Route path="/2025/03/16/ml/" element={<Develop />} /> */}
                 <Route path="/store/" element={<Store />} />
                 <Route path="/develop/" element={< Develop/>} />
                 <Route path="/research/" element={< Research/>} />
@@ -35,9 +35,9 @@ function App() {
                 <Route path="/products/" element={< Products/>} /> 
                 <Route path="/data/" element={< Data/>} />
             </Routes>
-
+{/* 
             <main>
-                {/* <IntroSection />
+                <IntroSection />
     <TabsSection active={tab} onChange={(current)=>setTab(current)}/>
     {tab === "main" && (
      <>
@@ -46,8 +46,8 @@ function App() {
      </>
     )}
              {tab === "feedback" && <FeedbackSection />}
-             {tab === "effect" && <EffectSection />} */}
-            </main>
+             {tab === "effect" && <EffectSection />} 
+            </main>*/}
             <Footer />
         </div>
     );
